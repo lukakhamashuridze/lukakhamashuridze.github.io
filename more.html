@@ -1,0 +1,152 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background-color: #972c5d;
+            position: absolute;
+            left: 0%;
+            right: 0%;
+            top: 0%;
+            max-height: 90px;
+            position: fixed;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            max-height: 94px;
+            font-family: "Emilys Candy", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .icons {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 15px;
+            height: 94;
+        }
+
+        #houseicon {
+            font-size: 30px;
+            color: black;
+        }
+
+        #baricon {
+            font-size: 30px;
+            color: black;
+        }
+
+        .pagename {
+            font-size: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-shadow: 5px 10px 20px black, 11px 15px 20px black;
+        }
+
+        .settings {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            text-decoration: none;
+            color: black;
+            border-radius: 5%;
+            padding: 10px;
+        }
+
+        #aus {
+            text-decoration: none;
+            background-color: #244d53;
+            padding: 15px;
+            border-radius: 10%;
+            color: black;
+        }
+
+        #aus:hover {
+            background-color: #499ca8;
+            box-shadow: 5px 10px 20px black, 11px 15px 20px black;
+        }
+
+        #cus {
+            text-decoration: none;
+            background-color: #244d53;
+            padding: 15px;
+            border-radius: 10%;
+            color: black;
+        }
+
+        #cus:hover {
+            background-color: #499ca8;
+            box-shadow: 5px 10px 20px black, 11px 15px 20px black;
+        }
+
+        #more {
+            text-decoration: none;
+            background-color: #244d53;
+            padding: 15px;
+            border-radius: 10%;
+            color: black;
+        }
+
+        #more:hover {
+            background-color: #499ca8;
+            box-shadow: 5px 10px 20px black, 11px 15px 20px black;
+        }
+
+        .links {
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            background-color: #499ca8;
+            width: 200px;
+            padding: 15px;
+            border-radius: 5%;
+            gap: 10px;
+        }
+
+        button {
+            background-color: white;
+            color: black;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="icons">
+            <a href="index.html"><i class="fa-solid fa-house" id="houseicon"></i></a>
+            <i class="fa-solid fa-bars" id="baricon"></i>
+        </div>
+        <div class="pagename">
+            <p>arctic monkeys</p>
+        </div>
+        <div class="settings">
+            <a href="aboutus.html" id="aus">about us</a>
+            <a href="contactus.html" id="cus">contact us</a>
+            <a href="more.html" id="more">more</a>
+        </div>
+    </div>
+
+    <div class="links">
+        <h3>resources</h3>
+        <a href="https://en.wikipedia.org/wiki/Arctic_Monkeys" id="link2"><button>info</button></a>
+        <a href="https://youtube.com/@arcticmonkeys?si=MbUyBM5UNdK6z4lw" id="link1"><button>official chanel</button></a>
+    </div>
+</body>
+
+</html>

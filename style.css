@@ -1,0 +1,249 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #2c9766;
+    ;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    background-color: #2c9766;
+    max-height: 456px;
+}
+
+main {
+    background-color: #972c5d;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #972c5d;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 94px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Emilys Candy", serif;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    height: 94;
+}
+
+#houseicon {
+    font-size: 30px;
+    color: black;
+}
+
+#baricon {
+    font-size: 30px;
+    color: black;
+}
+
+.pagename {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 5px 10px 20px black, 11px 15px 20px black;
+}
+
+.settings {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+#aus {
+    text-decoration: none;
+    background-color: #244d53;
+    padding: 15px;
+    border-radius: 10%;
+    color: black;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#aus:hover {
+    background-color: #499ca8;
+    box-shadow: 0px 10px 20px black;
+    transform: scale(1.1)
+}
+
+#cus {
+    text-decoration: none;
+    background-color: #244d53;
+    padding: 15px;
+    border-radius: 10%;
+    color: black;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#cus:hover {
+    background-color: #499ca8;
+    box-shadow: 0px 10px 20px black;
+    transform: scale(1.1)
+}
+
+#more {
+    text-decoration: none;
+    background-color: #244d53;
+    padding: 15px;
+    border-radius: 10%;
+    color: black;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#more:hover {
+    background-color: #499ca8;
+    box-shadow: 0px 10px 20px black;
+    transform: scale(1.1)
+}
+
+img {
+    height: 300px;
+    width: auto;
+    border-radius: 30%;
+    transition: box-shadow 0.3s ease;
+}
+
+img:hover {
+    box-shadow: 0px 10px 7px black, 0px 20px 14px #8a1f92;
+    transform: scale(1.1);
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.uppermain {
+    width: 100%;
+    padding: 40px;
+    background-color: #f5f5f5;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.fantxt p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.fantxt i {
+    font-size: 30px;
+    color: #ff5733;
+}
+
+.fan-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #972c5d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fan-btn:hover {
+    background-color: #bc4263;
+    box-shadow: 0 4px 10px black;
+    transform: scale(1.1);
+}
+
+.questions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Q1 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.albums {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.bandname {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+
+.ball {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    animation-name: squareshaper;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.albums {
+    background-color: #2c9766;
+}
+
+.Q1 {
+    background-color: #499ca8;
+}
+
+.bandname {
+    background-color: #8a1f92;
+}
+
+
+
+
+@keyframes squareshaper {
+    0% {
+        top: 0;
+        left: 0;
+        background-color: red;
+    }
+
+    50% {
+        top: 0;
+        left: 1000;
+        background-color: blue;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+        background-color: red;
+    }
+}

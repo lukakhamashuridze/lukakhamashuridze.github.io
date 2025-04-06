@@ -1,0 +1,198 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .header {
+            background-color: #972c5d;
+            position: absolute;
+            left: 0%;
+            right: 0%;
+            top: 0%;
+            max-height: 90px;
+            position: fixed;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            max-height: 94px;
+            font-family: "Emilys Candy", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .icons {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 15px;
+            height: 94;
+        }
+
+        #houseicon {
+            font-size: 30px;
+            color: black;
+        }
+
+        #baricon {
+            font-size: 30px;
+            color: black;
+        }
+
+        .pagename {
+            font-size: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-shadow: 5px 10px 20px black, 11px 15px 20px black;
+        }
+
+        .settings {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            text-decoration: none;
+            color: black;
+            border-radius: 5%;
+            padding: 10px;
+        }
+
+        #aus {
+            text-decoration: none;
+            background-color: #244d53;
+            padding: 15px;
+            border-radius: 10%;
+            color: black;
+        }
+
+        #aus:hover {
+            background-color: #499ca8;
+            box-shadow: 5px 10px 20px black, 11px 15px 20px black;
+        }
+
+        #cus {
+            text-decoration: none;
+            background-color: #244d53;
+            padding: 15px;
+            border-radius: 10%;
+            color: black;
+        }
+
+        #cus:hover {
+            background-color: #499ca8;
+            box-shadow: 5px 10px 20px black, 11px 15px 20px black;
+        }
+
+        #more {
+            text-decoration: none;
+            background-color: #244d53;
+            padding: 15px;
+            border-radius: 10%;
+            color: black;
+        }
+
+        #more:hover {
+            background-color: #499ca8;
+            box-shadow: 5px 10px 20px black, 11px 15px 20px black;
+        }
+
+        body {
+            font-family: sans-serif;
+            background-color: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10%;
+            box-shadow: 0 4px 10px black;
+            width: 100%;
+            max-width: 400px;
+            margin-top: 500px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        label {
+            margin-top: 15px;
+            color: #555;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #c9c964;
+            border-radius: 5px;
+        }
+
+        button {
+            margin-top: 20px;
+            width: 100%;
+            padding: 10px;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="icons">
+                <a href="index.html"><i class="fa-solid fa-house" id="houseicon"></i></a>
+                <i class="fa-solid fa-bars" id="baricon"></i>
+            </div>
+            <div class="pagename">
+                <p>arctic monkeys</p>
+            </div>
+            <div class="settings">
+                <a href="aboutus.html" id="aus">about us</a>
+                <a href="contactus.html" id="cus">contact us</a>
+                <a href="more.html" id="more">more</a>
+            </div>
+        </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <main>
+        <div class="container">
+            <h2>რეგისტრაცია</h2>
+            <label>user name</label>
+            <input type="text" id="username" name="username">
+
+            <label>email</label>
+            <input type="email" id="email" name="email">
+
+            <label>password</label>
+            <input type="password" id="password" name="password">
+
+            <a href="cong.html"><button type="submit">რეგისტრაცია</button></a>
+        </div>
+    </main>
+</body>
+
+</html>
